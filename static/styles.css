@@ -1,0 +1,50 @@
+html {
+    font-size: 12px;
+}
+body {
+    width: 100%;
+    height: 100%;
+    background: url(/static/assets/bg.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    font-family: 'Henny Penny', cursive, "Times New Roman";
+}
+
+h1 {
+    color: azure;
+    font-size: 6rem;
+}
+
+p {
+    padding: 10px;
+    font-size: 4rem;
+    color: azure;
+}
+
+.container {
+    margin: 20rem;
+    padding-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+header {
+    padding: 40px;
+    backdrop-filter: blur(3px);
+    border-radius: 15px;
+}
+
+a.btn {
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+a.btn-light{
+    width: 20%;
+    border-radius: 10px;
+}
+
+
